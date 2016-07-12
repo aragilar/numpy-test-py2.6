@@ -1,5 +1,5 @@
 from setuptools import setup
-from disutils.command.build import build
+from distutils.command.build import build
 
 class BuildTest(build):
     def run(self):
